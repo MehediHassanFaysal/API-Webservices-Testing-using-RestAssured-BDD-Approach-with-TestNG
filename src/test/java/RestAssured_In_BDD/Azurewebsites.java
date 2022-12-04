@@ -119,14 +119,14 @@ public class Azurewebsites {
     }
 
 
-//    @Test(priority = 5)
-//    void deleteSpecificAct()
-//    {
-//        given()
-//            .when()
-//                .delete("https://fakerestapi.azurewebsites.net/api/v1/Activities/9")
-//            .then()
-//                .statusCode(200)
-//                .log().all();
-//    }
+    @Test(priority = 5)
+    void deleteSpecificAct()
+    {
+        given()
+            .when()
+                .delete("https://fakerestapi.azurewebsites.net/api/v1/Activities/9")
+            .then()
+                .statusCode(200)
+                .log().all();
+    }
 }
