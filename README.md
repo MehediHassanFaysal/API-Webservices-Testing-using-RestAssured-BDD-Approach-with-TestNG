@@ -1,6 +1,6 @@
 ### API Automation with RestAssured in BDD Approach
   #### Demo web API : [FakeRESTapi](https://fakerestapi.azurewebsites.net/)
-  ##### Schemas: Activities
+  ##### Schemas: Activities, Authors
 ##### Testing Type: Web Automation 
 ##### Testing Category: API Testing
 ##### Performed Method's/HTTP Requests:
